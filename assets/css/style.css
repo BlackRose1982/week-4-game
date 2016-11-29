@@ -2,19 +2,39 @@
 /*body*/
 
 /*add a image to the background*/
+
+body { 
+  background: url(../images/crystals.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*give it a set size*/
 
----------------------------------------------------------------------
+/*---------------------------------------------------------------------*/
 
+#container {
+	padding: 10px;
+}
 /*header*/
 
+#header {
+
+	color: white;
+	background-color: orange;
+	padding: 20px;
+	width: 33%
+
+}
 /*make txt h1 size*/
 /*make txt white*/
 /*make background orange*/
 /*make the div smaller*/
 /*center txt inside the div*/
 
------------------------------------------------------------------------
+/*-----------------------------------------------------------------------*/
 
 /*instructions*/
 
@@ -24,7 +44,14 @@
 /*make the div smaller*/
 /*alling txt left inside the div*/
 
--------------------------------------------------------------------------
+#instructions {
+	color: green;
+	background-color: tan;
+	padding: 20px;
+	width: 50%
+}
+
+/*-------------------------------------------------------------------------*/
 
 /*randomNumberDisplay*/
 
@@ -32,8 +59,14 @@
 /*make txt purple*/
 /*make background green*/
 /*alling txt left inside the div*/
+#randomNumberDisplay {
+	color: purple;
+	background-color: green;
+	padding: 20px;
+	width: 25%
+}
 
--------------------------------------------------------------------------
+/*-------------------------------------------------------------------------*/
 
 /*gameStats*/
 
@@ -43,14 +76,28 @@
 /*make float left of the div random number*/
 /*clear the float so it does not effect next div under it*/
 
--------------------------------------------------------------------------
+#gameStats {
+	color: black;
+	background-color: blue;
+	padding: 20px;
+	width: 16%
+
+}
+
+/*-------------------------------------------------------------------------*/
 
 /*crystalList*/
 
 /*make items inside the div float left*/
 /*put a little space in between each item for better apperance*/
 
--------------------------------------------------------------------------
+
+li {
+
+	float: left;
+}
+
+/*-------------------------------------------------------------------------*/
 
 /*totalScoreText*/
 
@@ -59,7 +106,15 @@
 /*make background dark green*/
 /*alling txt left inside the div*/
 
---------------------------------------------------------------------------
+#totalScoreText {
+
+	clear: both;
+	color: white;
+	background-color: grey;
+	width: 16%;
+}
+
+/*--------------------------------------------------------------------------*/
 
 /*scoreBoard*/
 
@@ -68,5 +123,11 @@
 /*make background dark green*/
 /*alling txt left inside the div*/
 
------------------------------------------------------------------------------
+#scoreBoard {
+
+	color: white;
+	background-color: grey;
+	width: 16%;
+}
+/*-----------------------------------------------------------------------------*/
 
